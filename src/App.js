@@ -1,12 +1,16 @@
 import React from "react";
 
+import SearchBar from "./Components/SearchBar";
+
+
+
 function App() {
   return (
-    <form action="/" method="post">
-      <label htmlFor="">search</label>
-      <input type="text" name="" id="" />
-      <button>🔍</button>
-    </form>
+  <>
+   <SearchBar/>
+
+ </>
+  
   );
 }
 
